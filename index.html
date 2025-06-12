@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List - Vinícius</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./script.js">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <!--Título da página-->
-    <h1>Lista de Tarefas do Viní</h1>
+    <h1 id="titulo">Lista de Tarefas do Viní</h1>
     <!-- formulario -->
-    <form action="" class="input-section">
+    <div class="input-section">
         <input type="text" placeholder="Adicione aqui a tarefa..." id="tarefa">
         <!--botão de envio da tarefa-->
         <button id="btn-add">Adicionar tarefa</button>
-    </form>
+    </div>
+    <div class="todo-list">
+        <ul id="taskList">
+   
+        </ul>
+        </div>
    </div>
-   <div class="todo-list">
-     <ul id="taskList">
-
-     </ul>
-     </div>
+  
+     
+     <script src="script.js"></script>
 </body>
 </html>
